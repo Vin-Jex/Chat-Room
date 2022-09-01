@@ -1,0 +1,55 @@
+html * {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background: rgb(63, 73, 204);
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: .3rem;
+  border: .2rem solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.btn {
+  padding: .6rem;
+  border-radius: .3rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-outline {
+  color: rgb(153, 217, 234);
+  border: .1rem solid rgb(153, 217, 234);
+  background: rgb(63, 73, 204);
+}
+
+.btn-primary {
+  background: rgb(153, 217, 234);
+  color: rgb(0, 24, 111);
+}
+
+.btn-secondary {
+  background-color: rgb(0, 24, 111);
+  color: #fff;
+}
